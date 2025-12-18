@@ -1,4 +1,4 @@
-# Ad Click Prediction Using Logistic Regression
+# Machine Learning Based Prediction System Using Logistic Regression
 
 ## 📌 Project Overview
 This project predicts whether a user will click on an online advertisement using demographic and behavioral data. It uses a Logistic Regression model to classify user behavior and help improve digital marketing strategies.
@@ -35,4 +35,5 @@ The dataset used is `advertising.csv` which contains the following features:
 1. Install required libraries:
 ```bash
 pip install pandas numpy scikit-learn
+
 
