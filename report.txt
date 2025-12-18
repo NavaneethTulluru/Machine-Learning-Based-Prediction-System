@@ -1,0 +1,30 @@
+Project Title: Ad Click Prediction Using Logistic Regression
+
+Objective:
+To predict whether a user will click on an online advertisement based on demographic and behavioral features.
+
+Tools Used:
+- Python 3.13
+- pandas, numpy, scikit-learn
+
+Dataset:
+advertising.csv containing features like:
+- Age
+- Area Income
+- Daily Time Spent on Site
+- Daily Internet Usage
+- Clicked on Ad (target variable)
+
+Steps Taken:
+1. Loaded the dataset using pandas
+2. Selected relevant features and target
+3. Split data into training and testing sets (70/30)
+4. Trained a logistic regression model
+5. Evaluated model performance using accuracy and classification metrics
+
+Results:
+- Accuracy: 93.67%
+- Precision, Recall, F1-score: 0.94 across both classes
+
+Conclusion:
+The logistic regression model performs well in predicting ad clicks. It can be used to improve digital marketing strategies by targeting users more effectively.
